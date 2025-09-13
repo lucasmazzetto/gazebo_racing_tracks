@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>gazebo_racing_tracks</name>
+  <version>0.0.0</version>
+  <description>
+    A collection of Gazebo SDF worlds representing different racing tracks.
+    This package provides launch files to start each world individually and
+    installs the world files so they can be easily discovered and reused by
+    other ROS 2 packages without relying on absolute paths.
+  </description>
+  <maintainer email="lucasrmazzetto@gmail.com">Lucas Mazzetto</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
