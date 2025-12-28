@@ -9,8 +9,8 @@
     installs the world files so they can be easily discovered and reused by
     other ROS 2 packages without relying on absolute paths.
   </description>
-  <maintainer email="lucasrmazzetto@gmail.com">Lucas Mazzetto</maintainer>
-  <license>Apache License 2.0</license>
+  <maintainer email="workabotic@gmail.com">Lucas Mazzetto</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
